@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pritish Bhawal</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/dd73458c9c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="nav-container">
+      <nav id="nav">
+        <img src="./Images/pb-removebg-preview (1).png"
+         <div id="ul-div">
+        <ul id="sidemenu">
+          <li><a href="#home"> Home</a></li>
+          <li><a href="#about-pg"> About </a></li>
+          <li><a href="#services"> Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact"> Contact</a></li>
+          <i id="closebtn" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i id="openbtn" class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+    </nav>
+    </div>
+    <div id="home">
+      <img src="./Images/WhatsApp Image 2023-11-02 at 23.10.48_cad9a0cd.png" />
+     <div id="home-text">
+        <div id="line-div1"></div>
+        <i  id="code-svg" class="fa-solid fa-code this"></i>
+      <i id="settings-svg" class="fa-solid fa-sitemap this"></i>
+        <i id="laptop-svg" class="fa-solid fa-laptop-code this"></i>
+       <i id="keyboard-svg" class="fa-solid fa-keyboard this"></i>
+         <div id="line-div3"></div>
+        <p>Web Developer/Android Developer</p>
+        <h1>Hi,I'm <span id="pb">Pritish Bhawal </span></h1>
+        <p><span>KiiT University</span>,Bhubaneswar</p>
+        <div id="line-div2"></div>
+     </div> 
+    </div>
+      <!-- about section-->
+        <section id="about-pg">
+            <div id="about-container">
+                <div id="about-img">
+                    <img src="./Images/mypic.jpg">
+                </div>
+                <div id="about-text">
+                    <h1 id="aboutme-text">About Me</h1>
+                    <p id="aboutme-para">I have a passion for continuous learning and put in the effort to work hard. My interests lie in technology, and I enjoy reading blogs and articles related to this field. Collaboration is my preferred way of working, and I believe in sharing my ideas and beliefs with others. My current focus is on learning Android development with Kotlin, and I have prior experience in programming languages such as C, C++, and Java.Also,I have a decent knowledge of front end Web Development.Diligence is a value I hold dear and apply to all my work.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Developing user-friendly websites.</li>
+                            <li><span>Android Development</span><br>Building android apps using android studio and kotlin.</li>
+                            <li><span>DSA using C++</span><br>Solving LeetCode and GFG DSA problems.</li>
+                            <li><span>SQL</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Elabs</span><br>Android Lead at Elabs,KiiT.Creating curriculum for the android team.</li>
+                             <li><span>Youth India Finance</span><br>Worked as a Finance Intern.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech 2021-25</span><br>CGPA: 8.61<br>KiiT,Bhubaneswar</li>
+                            <li><span>Senior Secondary 2019</span><br>Percentage: 93%<br>Sri Sankara Vidyalaya,Bhilai</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+              
+                <i  id="dog" class="fa-solid fa-dog"></i>
+        </section>
+<!-- services-->
+<section id="services">
+    <div id="services-container">
+        <h1>My Interests</h1>
+        <div id="services-grid">
+            <div id="service1">
+            <i class="fa-solid fa-code fa-2xl"></i>
+                <h2>Web Design</h2>
+                <p>I adore creating beautiful, animated websites.I'm a novice, but I'm picking things up quickly.</p>
+                <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
+            </div>
+            <div id="service2">
+     <i class="fa-solid fa-mobile-screen fa-2xl"></i>
+                <h2>App Design</h2>
+                <p>I've used a couple Android apps in my career.I utilize Android Studio and Kotlin.Additionally, I have used Firebase.</p>
+                <a href="https://www.geeksforgeeks.org/introduction-to-android-development/">Learn more</a>
+            </div>
+            <div id="service3">
+     <i class="fa-solid fa-mobile-screen fa-2xl"></i>
+                <h2>Problem Solving/DSA</h2>
+                <p>I enjoy solving difficulties in real life.I am well-versed in intermediate DSA subjects, including dynamic programming, graphs, and greedy algorithms.</p>
+                <a href="https://auth.geeksforgeeks.org/user/pritishyo10/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"><p>GeeksForGeeks Profile(Rank 457 in KiiT)</p></a>
+                 <a href="https://leetcode.com/pritishyo10/"><p>LeetCode Profile(Top 86%)</p></a>
+                <a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/">Learn more</a>
+            </div>
+          
+
+            
+        </div>
+        
+    </div>
+</section>
+<!-- portfolio-->
+<section id="portfolio">
+    <div id="proj-container">
+         <h1>My Work</h1>
+         <div id="proj-grid">
+            <div class="work">
+                <img src="./Images/animated_web.png">
+                <div class="layer">
+                    <h3>Animated Website</h3>
+                    <p>A front-end website with animations using html,css,js and gsap.</p>
+                    <a href="https://github.com/PRITISH212121/animated-website"><i  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="./Images/elabspic.jpg">
+                <div class="layer">
+                    <h3>Elabs QR attendance App</h3>
+                    <p>Developed QR Attendance system using Firebase. Members can login in the app and can scan students QR code.</p>
+                    <a href="https://github.com/PRITISH212121/ELABS-Offline-Attendance-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="./Images/educational_web.png">
+                <div class="layer">
+                    <h3>Educational Website</h3>
+                    <p>A front-end website with using html,css,js.</p>
+                    <a href="https://github.com/PRITISH212121/educational-website"><i  class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+         </div>
+          <a id="portfo-btn" class="btn" href="https://github.com/PRITISH212121?tab=repositories">See More</a>
+    </div>
+</section>
+<!-- ----contact----- -->
+<section id="contact">
+    <div id="contact-container">
+        <div id="row">
+            <div id="contact-left">
+                <h1>Contact Me<Menu></Menu></h1>
+                <p><i id="email-icon" class="fa-regular fa-paper-plane"></i>pritishyo10@gmail.com</p>
+                <p><i id="phone-icon1" class="fa-solid fa-phone"><i id="phone-icon2" class="fa-solid fa-phone-volume"></i></i>7024844211</p>
+                
+                <div id="icons">
+                    <a href="">  <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pritish-bhawal-501029226/">  <i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/PRITISH212121"> <i class="fa-brands fa-github"></i></a>
+                </div>
+                   <a id="downloadcv-btn" class="btn" href="./resume/Resumev6 (1).pdf" download>Download Resume</a>
+               
+            </div>
+            <div id="contact-right">
+                <form >
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  cols="10" rows="6">Your Message</textarea>
+                    <button  type="submit">Submit</button>
+
+                </form>
+            </div>
+        </div>
+     
+    </div>
+</section>
+<div class="copyright">
+    <p><i class="fa-solid fa-copyright"></i>pb</p>
+</div>
+
+        <script src="./script.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </body>
+</html>
